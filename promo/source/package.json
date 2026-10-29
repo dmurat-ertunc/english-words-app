@@ -1,0 +1,16 @@
+{
+  "name": "english-words-promo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render:30": "remotion render src/index.ts Promo30 out/english-words-30s.mp4",
+    "render:15": "remotion render src/index.ts Promo15 out/english-words-15s.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.300",
+    "@remotion/google-fonts": "^4.0.300",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.300"
+  }
+}
